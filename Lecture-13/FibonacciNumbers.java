@@ -3,7 +3,10 @@ public class FibonacciNumbers {
         System.out.println(findFibonacci(5));
     }
 
-    static int findFibonacci(int num){
-        // 53:01
+    static int findFibonacci(int num) {
+        if (num == 0 || num == 1) {
+            return 1;
+        }
+        return findFibonacci(num - 1) + findFibonacci(num - 2);
     }
 }
