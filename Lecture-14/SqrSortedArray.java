@@ -1,6 +1,7 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class RemoveElement {
+public class SqrSortedArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the size of the array: ");
@@ -10,20 +11,16 @@ public class RemoveElement {
             System.out.printf("Enter %d number element of the array: ", i + 1);
             arr[i] = input.nextInt();
         }
-        System.out.print("Enter a value: ");
-        int val = input.nextInt();
         input.close();
-        System.out.println(removeElement(arr, val));
+        System.out.println(Arrays.toString(sortedSquares(arr)));
     }
 
-    static int removeElement(int[] arr, int val) {
-        int count = 0;
+    static int[] sortedSquares(int[] arr) {
+        int[] newArr = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != val) {
-                arr[count] = arr[i];
-                count++;
-            }
+            newArr[i] = arr[i] * arr[i];
         }
-        return count;
+        Arrays.sort(newArr);
+        return newArr;
     }
 }
