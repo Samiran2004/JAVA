@@ -18,7 +18,7 @@ public class AlternatingSum {
             if(operator == '-'){
                 sum -= num;
                 operator = '+';
-            }else if(operator == '+'){
+            }else {
                 sum += num;
                 operator = '-';
             }

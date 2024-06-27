@@ -1,4 +1,4 @@
-/* Find unique element in an array */
+// Find Unique Element //
 
 import java.util.Scanner;
 
@@ -17,6 +17,10 @@ public class Question2 {
     }
 
     public static int findUniqueElement(int[] arr){
-        
+        int uniqElm = 0;
+        for(int n:arr){
+            uniqElm ^= n;
+        }
+        return uniqElm;
     }
 }
