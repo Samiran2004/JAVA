@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueTutorial/QueueTutorial.iml" filepath="$PROJECT_DIR$/QueueTutorial/QueueTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Scaler DSA Practice.iml" filepath="$PROJECT_DIR$/.idea/Scaler DSA Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackTutorial/StackTutorial.iml" filepath="$PROJECT_DIR$/StackTutorial/StackTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreeTutorial/TreeTutorial.iml" filepath="$PROJECT_DIR$/TreeTutorial/TreeTutorial.iml" />
+    </modules>
+  </component>
+</project>

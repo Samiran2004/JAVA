@@ -4,7 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.iml" filepath="$PROJECT_DIR$/.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bitwise Operator Questions/Bitwise Operator Questions.iml" filepath="$PROJECT_DIR$/Bitwise Operator Questions/Bitwise Operator Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection_Freamwork/Collection_Freamwork.iml" filepath="$PROJECT_DIR$/Collection_Freamwork/Collection_Freamwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture-15/Lecture-15.iml" filepath="$PROJECT_DIR$/Lecture-15/Lecture-15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oops1/Oops1.iml" filepath="$PROJECT_DIR$/Oops1/Oops1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oops2/Oops2.iml" filepath="$PROJECT_DIR$/Oops2/Oops2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oops3/Oops3.iml" filepath="$PROJECT_DIR$/Oops3/Oops3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion-2/Recursion-2.iml" filepath="$PROJECT_DIR$/Recursion-2/Recursion-2.iml" />
     </modules>
   </component>
 </project>

@@ -28,6 +28,13 @@ public class Main {
         System.out.println(Samiran.name);
         System.out.println(Samiran.rollNumber);
         Samiran.greeting();
+
+        Student one = new Student();
+        Student two = one;
+        one.name = "Dev";
+        two.marks = 98.7f;
+        System.out.println(two.name);
+        System.out.println(one.marks);
     }
 }
 
