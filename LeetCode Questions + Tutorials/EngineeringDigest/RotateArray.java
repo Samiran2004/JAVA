@@ -13,10 +13,11 @@ public class RotateArray {
         System.out.print("Enter the  value of d: ");
         int d = input.nextInt();
         input.close();
+        rotateArrayBruteForce(arr, d);
         rotateArray(arr, d);
     }
 
-    private static void rotateArray(int[] arr, int d) {
+    private static void rotateArrayBruteForce(int[] arr, int d) {
         if (arr.length == 0 || d == 0) {
             return;
         }
@@ -34,5 +35,28 @@ public class RotateArray {
             arr[arr.length - d + i] = tempArr[i];
         }
         System.out.println(Arrays.toString(arr));
+    }
+
+    private static void rotateArray(int[] arr, int d) {
+        if (arr.length == 0 || d == 0) {
+            return;
+        }
+        // Step 1: Rotate the d number of elements...
+        reverse(arr, 0, d - 1);
+        // Step 2: Rotate the remaining elements...
+        reverse(arr, d, arr.length - 1);
+        // Step 3: Rotate the full array...
+        reverse(arr, 0, arr.length - 1);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    private static void reverse(int[] arr, int i, int j) {
+        while (i <= j) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
+        }
     }
 }
