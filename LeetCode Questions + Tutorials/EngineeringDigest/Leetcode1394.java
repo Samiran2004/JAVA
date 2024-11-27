@@ -15,7 +15,7 @@ class Leetcode1394 {
     }
 
     private static int findLucky(int[] arr) {
-        HashMap<Integer, Integer> map = new HashMap();
+        HashMap<Integer, Integer> map = new HashMap<>();
         int result = -1;
         for(int i : arr) {
             map.put(i, map.getOrDefault(i, 0) + 1);
