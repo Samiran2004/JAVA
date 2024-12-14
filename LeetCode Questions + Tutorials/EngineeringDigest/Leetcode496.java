@@ -22,6 +22,7 @@ public class Leetcode496 {
             nums2[i] = input.nextInt();
         }
         System.out.println(Arrays.toString(nextGreaterElement(nums1, nums2)));
+        input.close();
     }
 
     private static int[] nextGreaterElement(int[] nums1, int[] nums2) {
